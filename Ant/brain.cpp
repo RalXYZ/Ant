@@ -23,10 +23,6 @@ Ant::Ant() {
 	this->left.clockwise = &(this->up);
 	this->left.anti_clockwise = &(this->down);
 
-	this->antDirection = &(this->up);
-
-	this->antRow = HORIZONTAL / CUBE / 3;
-	this->antColumn = VERITCAL / CUBE / 3;
 }
 
 void Ant::nextStep() {

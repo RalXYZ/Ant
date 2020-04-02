@@ -16,24 +16,26 @@ class Ant : public Map {
 		direction* anti_clockwise;
 		MetaDirection meta;
 	};
-
-public:
 	direction up;
 	direction right;
 	direction down;
 	direction left;
+	direction* antDirection = &up;
 
-	direction* antDirection;
-
-	int antRow;
-	int antColumn;
-
-	Ant();
-	void nextStep();
 	void moveAnt(direction* antDirection);
 	void trace() {
 		this->map[antRow][antColumn] = !(this->map[antRow][antColumn]);
 	}
+
+protected:
+	int antRow = HORIZONTAL / CUBE / 3;
+	int antColumn = VERITCAL / CUBE / 3;
+
+public:
+
+	Ant();
+	void nextStep();
+
 };
 
 #endif

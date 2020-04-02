@@ -9,13 +9,12 @@ using namespace std;
 int main()
 {
 	Window Play;
-	//Sleep(10000);
 	for (int i = 0; i <= 11000; i++) {
 		Play.printTrace();
 		Play.nextStep();
 		Play.printAnt();
 		Play.printStep(i);
-		Sleep(100);
+		Sleep(20);
 	}
 	_getch();
 	return 0;
