@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Map">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>brain.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ant">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="Ant::direction">
+        <TypeIdentifier>
+          <NewMemberFileName>brain.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <InheritanceLine Type="Map">
+      <InheritanceModifierLabel ManuallyPlaced="true">
+        <Position X="0.06" Y="0.1" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>IAJAAABAAAACAAAAAAAAAAAAEAAIAAAAAgABAgAAgAA=</HashCode>
+      <FileName>brain.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Color">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="Color::properties">
+        <TypeIdentifier>
+          <NewMemberFileName>color.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>color.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Window">
+    <Position X="3.25" Y="4.25" Width="1.5" />
+    <InheritanceLine Type="Ant">
+      <InheritanceModifierLabel ManuallyPlaced="true">
+        <Position X="0.376" Y="0.086" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <InheritanceLine Type="Color">
+      <InheritanceModifierLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="-0.013" Y="0.232" Height="0.182" Width="0.5" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAEAAAAAAAAABAAAAAAACAAAAAA=</HashCode>
+      <FileName>display.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="MetaDirection">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAACACAAAAAAAI=</HashCode>
+      <FileName>brain.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
